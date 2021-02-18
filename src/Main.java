@@ -1,3 +1,5 @@
+import java.awt.Frame;
+
 interface shapes{
     public void points(int i);
     public void getShape();
@@ -20,9 +22,14 @@ class rect implements shapes{
 }
 
 public class Main {
-
     public static void main(String[] args) {
-	System.out.println("Hello world");
-	System.out.println("How is the weather?");
+        System.out.println("Check the opened window, and explore some Shape-creation!");
+
+        //Creating a frame for the shapes
+        Frame frame = new Frame();
+        int frameWidth = 300;
+        int frameHeight = 300;
+        frame.setSize(frameWidth,frameHeight);
+        frame.setVisible(true);
     }
 }
