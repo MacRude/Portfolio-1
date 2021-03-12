@@ -1,6 +1,7 @@
-
+import java.awt.*;
 
 public class Shapes {
+
     public double area(){
         return area();
     }
@@ -16,5 +17,6 @@ public class Shapes {
     public double distance(){
         return distance();
     }
+
     }
 

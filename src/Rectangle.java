@@ -1,5 +1,4 @@
 
-
 public class Rectangle extends Shapes{
     public double area(){
         int g = 5;
